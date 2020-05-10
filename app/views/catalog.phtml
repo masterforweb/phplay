@@ -1,0 +1,16 @@
+
+<h1>catalog</h1>
+
+<?if (isset($files['dir'])):?>
+    <?foreach($files['dir'] as $dir):?>
+        <p><a href="catalog/<?=$dir?>"><?=$dir?></a></p>
+    <?endforeach?>
+<?endif?>
+
+<?if (isset($files['file'])):?>
+    <?foreach ($files['file'] as $file):?>
+        <p><a href="<?=$file['url']?>"><?=$file['file']?></a></p>
+    <?endforeach?>
+<?endif?>
+
+

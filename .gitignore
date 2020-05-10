@@ -1,0 +1,15 @@
+##### Composer
+composer.phar
+vendor/
+composer.lock
+
+
+.DS_Store
+Thumbs.db
+.Trash-*
+
+*.bak
+*.mp4
+*.mp3
+*.tmp
+
