@@ -11,5 +11,5 @@ if (isset($_SERVER['HTTP_HOST']))
 else
     define('APPPATH', dirname(__FILE__));     
 
-define('MEDIADIR', APPPATH.'pub/myvideo');
-define('MEDIAURL', '/pub/myvideo/');   
+define('MEDIADIR', '/media');
+define('MEDIAURL', '/media/');   

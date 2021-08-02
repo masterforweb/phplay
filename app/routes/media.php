@@ -10,3 +10,15 @@ function catalog_kuri($subdir = ''){
 
 
 }
+
+
+function mu3_kuri($subdir = ''){
+
+
+    $files = scandir_kuri($subdir);
+
+    include ('views/mu3.phtml');
+
+
+
+}
